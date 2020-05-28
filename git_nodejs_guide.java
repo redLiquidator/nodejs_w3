@@ -21,6 +21,7 @@ git clone : 저장소 소스코드를 checkout 받을수 있다.
     svn 과의 차이는, git 은 저장소가 local 에도 있기 때문에 
     원격 중앙 저장소의 소스코드를 체크아웃 받을수도 있고,
     작업한 로컬의 저장소의 소스코드를 체크아웃 받을수도 있다. 
+git pull origin master:  svn update. 수정한 소스코드를 원격저장소에 변경     
     ctrl+shift+p -> git:clone -> repository url 입력
  git pull : 원격 저장소의 내용을 가져와 자동으로 병합 =fetch + merge git fetch : 단순히 원격 저장소의 내용을 확인만 하고 
             로컬 데이터와 병합은 하고 싶지 않은 경우
